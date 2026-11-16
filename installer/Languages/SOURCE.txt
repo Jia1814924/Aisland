@@ -1,0 +1,4 @@
+ChineseSimplified.isl: Inno Setup simplified Chinese translation, downloaded 2026-11-08.
+Official source: https://raw.githubusercontent.com/jrsoftware/issrc/main/Files/Languages/ChineseSimplified.isl
+SHA256: e0b0b350e2245f3c5e65586dfe43d574f6e7f06f2261149aba284954b3fc9a8d
+The original maintainer credits are retained in the file.
