@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Aisland — floating island A</title>
+  <defs>
+    <linearGradient id="ivory" x1="96" y1="28" x2="422" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#F8F3EC"/>
+    </linearGradient>
+    <linearGradient id="charcoal" x1="181" y1="142" x2="354" y2="406" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27272B"/>
+      <stop offset="1" stop-color="#202024"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="195" y1="282" x2="307" y2="331" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0755FF"/>
+      <stop offset="1" stop-color="#183DFA"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="104" y1="20" x2="420" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".90"/>
+      <stop offset="1" stop-color="#E9E0D6" stop-opacity=".75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent corners keep the native app icon clean on any desktop. -->
+  <rect x="12" y="12" width="488" height="488" rx="108" fill="url(#ivory)"/>
+  <rect x="13" y="13" width="486" height="486" rx="107" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+
+  <!-- A generous, rounded arch remains a distinctive A at tray-icon sizes. -->
+  <path d="M100 410C76 410 64 393 71 369L194 142C208 121 227 113 256 113C285 113 304 121 318 142L441 369C448 393 436 410 412 410H394C379 410 369 402 363 388L279 204C271 188 264 180 256 180C248 180 241 188 233 204L149 388C143 402 133 410 118 410Z" fill="url(#charcoal)"/>
+
+  <!-- The detached capsule is the island, as well as the A's crossbar. -->
+  <rect x="194" y="281" width="124" height="53" rx="26.5" fill="url(#blue)"/>
+</svg>
