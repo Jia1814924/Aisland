@@ -1,0 +1,46 @@
+# 本地环境
+.venv/
+.build-tools/
+.build-tests/
+.workbuddy/
+build/
+dist/
+__pycache__/
+*.pyc
+
+# 个人配置与数据（含 API Key、剪贴板 / 翻译历史、日志）
+config.json
+config.backup.json
+config.tmp
+private_defaults.json
+config.json.*.tmp
+config*.backup*
+.env
+.env.*
+!.env.example
+*.log
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# 调试脚本与截图（含屏幕内容）
+scratch/
+
+# 译声原项目、模型、字典（体积大，本地使用）
+translator/
+models/
+
+# 宣传视频素材与输出
+promo/
+
+# 私人开发记录、设计草稿与安装包输出
+开发进度.md
+assets/logo-concepts/
+*.zip
+*.7z
+*.exe
+*.onnx
+*.key
+*.pem
+!tests/fixtures/imap_self_signed.pem
